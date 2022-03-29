@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #1a1a1a;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #ecedef;
+  --second-brand-color: #98c74c;
+  --third-brand-color: #e7eddb;
+  --fourth-brand-color: rgb(99, 99, 99);
+
+
+  --main-font:  'Spartan';
+  --title-font:  'Spartan Bold';
+
+  font-size: 62.5%;
+}
