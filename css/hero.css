@@ -159,7 +159,9 @@
         width: 150%;
         /* z-index: -1; */
     }
-
+    .hero .title {
+        max-width: 60rem;
+    }
 
 
     .contacts__list {
