@@ -2,7 +2,7 @@
     position: relative;
     padding: 10rem 0;
 }
-.hero-products::before { 
+/* .hero-products::before { 
     display: block;
     content: '';
     width: 100%;
@@ -11,10 +11,21 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1786' height='350' viewBox='0 0 1786 350' fill='none'%3E%3Cpath d='M481.5 0.30875C287.018 0.308893 117.167 63.3654 57.5635 98.4453C-87.3926 154.974 79.0207 319.749 146.571 319.749C214.122 319.749 413.303 319.148 519 335.986C624.697 352.825 760.088 360.041 883.268 319.749C1006.45 279.458 1166.19 301.708 1279.83 335.986C1393.47 370.264 1615.2 325.162 1714.54 281.262C1813.88 237.362 1784.47 160.988 1772.55 131.521C1760.63 102.054 1745.53 74.9919 1666.06 71.3837C1586.59 67.7755 1420 6.92763 1257.5 0.30875C1148.93 -4.1133 946.5 40.4276 874.5 40.4276C760 40.4276 677 0.308607 481.5 0.30875Z' fill='%23e7eddb'%3E%3C/path%3E%3C/svg%3E ");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1786' height='350' viewBox='0 0 1786 350' fill='none'%3E%3Cpath d='M481.5 0.30875C287.018 0.308893 117.167 63.3654 57.5635 98.4453C-87.3926 154.974 79.0207 319.749 146.571 319.749C214.122 319.749 413.303 319.148 519 335.986C624.697 352.825 760.088 360.041 883.268 319.749C1006.45 279.458 1166.19 301.708 1279.83 335.986C1393.47 370.264 1615.2 325.162 1714.54 281.262C1813.88 237.362 1784.47 160.988 1772.55 131.521C1760.63 102.054 1745.53 74.9919 1666.06 71.3837C1586.59 67.7755 1420 6.92763 1257.5 0.30875C1148.93 -4.1133 946.5 40.4276 874.5 40.4276C760 40.4276 677 0.308607 481.5 0.30875Z' fill='%23ecedef'%3E%3C/path%3E%3C/svg%3E ");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
+} */
+.products__wrapper-svg {
+    display: block;
+    width: 100%;
+    fill: var(--third-brand-color);
+}
+.container__wrapper {
+    background-color: var(--third-brand-color);
+}
+.products__wrapper-svg--bottom {
+    transform: rotate(180deg);
 }
 .products {
     text-align: center;
